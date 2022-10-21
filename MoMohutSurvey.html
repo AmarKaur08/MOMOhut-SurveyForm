@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"></meta>
+    <link rel="stylesheet" href="MoMohutSurvey.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
+    <h1 id="title">MOMOhut Survey Form</h1>
+    <p id="description">Thanks for showing interest in MOMOhut!!!</p>
+    <form id="survey-form" action="">
+      <fieldset>
+        <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="Enter your name" required></label>
+        <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="Enter your email" required></label>
+        <label for="number" id="number-label">Age: <input type="number"id="number" min="7" max="130" placeholder="Enter your age"required></label>
+        </fieldset>
+        <fieldset>
+        <label for="dropdown">Would you like to have sitting inside MOMOhut? 
+          <select id="dropdown">
+            <option>Set your Preference</option>
+              <option>Yes</option>
+               <option>No</option> 
+                 </select>
+                 </label>
+                 </fieldset>
+                 <fieldset>
+                 <label>Would you like to have MOMOhut fully automated?
+                  <label><input type="radio" name="automate" class="inline" value="ofcourse"> Ofcourse!</label>
+                  <label><input type="radio" name="automate" class="inline" value="not"> Not at all!</label>
+                  <label><input type="radio" name="automate" class="inline" value="may"> May be!</label>
+                  </label>
+                  </fieldset>  
+                  <fieldset>                
+                <label>Which type of MOMOS do you like to have?(Check all that apply)
+                  <label><input type="checkbox" value="taste" class="inline"> Tandoori</label>
+                  <label><input type="checkbox" value="taste"class="inline"> KFC</label>
+                  <label><input type="checkbox" value="taste"class="inline"> Fried</label>
+                  <label><input type="checkbox" value="taste"class="inline"> Gravy</label>
+                  <label><input type="checkbox" value="taste" class="inline"> Steamed</label>
+                   </label>
+                   </fieldset>
+                   <fieldset>
+                   <label for="review">Any comments or Suggestions :) <textarea rows="3" cols="20" id="review" name="review" placeholder="We would love to hear from you...."></textarea></label>
+
+        </fieldset>
+        <input type="submit" value="Submit" name="submit" id="submit">
+      </form>
+  </body>
+ </html>
